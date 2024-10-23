@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class AsyncTaskManager extends AsyncTask<String, Void, String> {
 
-    String apiKey = "eb3deb2a79142710e5ac645d800c8ecf"; // OpenWeatherMap API anahtarınızı buraya girin
+    String apiKey = ""; // OpenWeatherMap API anahtarınızı buraya girin
     String city = "Ankara"; // Şehir ismi
     String urlString = "https://api.openweathermap.org/data/2.5/weather?lat=39.9199&lon=32.8543&appid="+apiKey;
     int result_sicaklik = 0;
